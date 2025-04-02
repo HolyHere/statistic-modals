@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(255, 234, 167);
+  margin: auto;
+  width: 430px;
+}
+
+main {
+  width: 430px;
+  background-color: white;
+  /* padding: 28px 0px 30px 45px; */
+  border-radius: 6px;
+}
+
+main h2 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #828282;
+  padding: 28px 0px 0px 45px;
+}
+
+main h1 {
+  margin: 4px 0px 0px 45px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #0b1354;
+}
+
+main .sec {
+  margin: 4px 0px 0px 45px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+main .line {
+  margin: 27px 0px 20px 0px;
+  width: 100%;
+  height: 2px;
+  background-color: #ececec;
+}
+
+main .image {
+  display: flex;
+}
+
+main .image_1 {
+  background-image: url(./SVG/SVG.svg);
+  width: 197px;
+  height: 197px;
+  background-repeat: no-repeat;
+  margin: 0px 0px 30px 45px;
+}
+
+main .image .image_2 {
+  margin: 0px 0px 0px 30px;
+}
+
+main .image .image_2 .p {
+  margin: 8px 0px 0px 0px;
+  align-items: center;
+  display: flex;
+}
+
+main .image .image_2 div p {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #4f4f4f;
+  margin: 0px 0px 0px 9px;
+}
+
+main .image .image_2 div .pr_1 {
+  width: 21px;
+  height: 8px;
+  background-color: #165baa;
+}
+
+main .image .image_2 div .pr_2 {
+  width: 21px;
+  height: 8px;
+  background-color: #f765a3;
+}
+
+main .image .image_2 div .pr_3 {
+  width: 21px;
+  height: 8px;
+  background-color: #16bfd6;
+}
